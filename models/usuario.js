@@ -22,6 +22,9 @@ const UserSchema = Schema({
     state: {
         type: Boolean,
         default: true
+    },
+    image:{
+        type:String
     }
 
     
